@@ -101,7 +101,7 @@ let acceptOrder = http.batch( [{
     }
   }
 }]);
-console.log('login by admin - body ' + String(acceptOrder[0].body));
+console.log('login by employee - body ' + String(acceptOrder[0].body));
 console.log('update order status ' + String(acceptOrder[1].body));
 
 
